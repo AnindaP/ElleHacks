@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Rubik;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+h5 {
+    font-family: Rubik;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: rgba(64, 62, 86, 0.75);
+}
+
+.login-box {
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-box h1 {
+    float: left;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 57px;
+    color: #403E56;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 3px solid #569434;
+}
+
+.textbox#password{
+    border-bottom: 3px solid #6467AE;
+}
+
+.textbox i {
+    width: 26px;
+    float: right;
+    text-align: center;
+}
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #569434;
+    font-weight: normal;
+    font-size: 25px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+
+}
+#user::placeholder{
+    color: rgba(86, 148, 52, 0.25);
+    font-weight: 500;
+}
+
+#pass::placeholder{
+    color:rgba(64, 62, 86, 0.25);
+    font-weight: 500;
+}
+
+.reg {
+    width: 140px;
+    background: none;
+    border: 5px solid #403E56;
+    color: #403E56;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border-radius: 28px;
+    height: 64px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.log {
+    width: 140px;
+    background: #569434;;
+    border: 5px solid #569434;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    padding: 15 32px;
+    box-sizing: border-box;
+    border-radius: 28px;
+    height: 64px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn{
+    margin: auto 5px auto 10px;
+}
+.btn2{
+    margin: auto 10px auto 5px;
+}
